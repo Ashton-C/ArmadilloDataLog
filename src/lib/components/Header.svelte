@@ -14,7 +14,12 @@
         justify-content: space-evenly;
         align-items: center;
         list-style: none;
+        color: #e7e7e7;
     }
+    a:visited {
+        color: #ff9853;
+    }
+
     .brand {
         font-family: "DM Sans", sans-serif;
         font-weight: 200;
@@ -29,13 +34,10 @@
     <nav class='nav'>
         <ul>
             <li class='nav_item brand'>
-                <a href="/"> DIllO </a>
+                <a href="/"> ARMADIllO_DATALOG </a>
             </li>
             <li class='nav_item'>
-                <a href="/about"> ABOUT </a>
-            </li>
-            <li class='nav_item'>
-                <a href="/contact"> CONTACT </a>
+                <a href="/about"><img src='./' /></a>
             </li>
         </ul>
     </nav>
